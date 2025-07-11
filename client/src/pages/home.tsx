@@ -21,22 +21,22 @@ export default function Home() {
               <div className="w-10 h-10 gradient-purple-blue rounded-lg flex items-center justify-center">
                 <GraduationCap className="text-white text-lg" size={20} />
               </div>
-              <span className="text-2xl font-bold text-slate-700">UniConecta</span>
+              <span className="text-2xl font-bold text-slate-700">OreHub</span>
             </div>
 
             {/* Navigation */}
             <nav className="hidden md:flex space-x-8">
               <Button variant="ghost" className="text-slate-700 hover:text-primary font-medium transition-colors duration-200">
                 <Users className="mr-2" size={16} />
-                Groups
+                Grupos
               </Button>
               <Button variant="ghost" className="text-slate-700 hover:text-primary font-medium transition-colors duration-200">
                 <Presentation className="mr-2" size={16} />
-                Mentoring
+                Mentoria
               </Button>
               <Button variant="ghost" className="text-slate-700 hover:text-primary font-medium transition-colors duration-200">
                 <Calendar className="mr-2" size={16} />
-                Events
+                Eventos
               </Button>
             </nav>
 
@@ -59,15 +59,15 @@ export default function Home() {
           <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-4">
             <Button variant="ghost" className="w-full justify-start text-slate-700 hover:text-primary font-medium">
               <Users className="mr-3" size={16} />
-              Groups
+              Grupos
             </Button>
             <Button variant="ghost" className="w-full justify-start text-slate-700 hover:text-primary font-medium">
               <Presentation className="mr-3" size={16} />
-              Mentoring
+              Mentoria
             </Button>
             <Button variant="ghost" className="w-full justify-start text-slate-700 hover:text-primary font-medium">
               <Calendar className="mr-3" size={16} />
-              Events
+              Eventos
             </Button>
           </div>
         )}
@@ -78,18 +78,18 @@ export default function Home() {
         <section className="text-center mb-12">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-slate-700 mb-6 leading-tight">
-              Connecting{" "}
-              <span className="text-primary">education</span>,{" "}
-              <span style={{ color: "hsl(213, 93%, 68%)" }}>community</span> and{" "}
+              Conectando{" "}
+              <span className="text-primary">educação</span>,{" "}
+              <span style={{ color: "hsl(213, 93%, 68%)" }}>comunidade</span> e{" "}
               <span className="bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
-                opportunity
+                oportunidade
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Join thousands of students, educators, and professionals building the future together through collaborative learning and meaningful connections.
+              Conectando educação e comunidade, junte-se a milhares de estudantes, educadores e profissionais que estão construindo o futuro juntos por meio de aprendizado colaborativo, conexões significativas e oportunidade.
             </p>
             <Button className="gradient-purple-blue text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-              Get Started Today
+              Crie seu cadastro
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -100,7 +100,7 @@ export default function Home() {
         {/* Activity Feed */}
         <section className="mb-12">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-700 mb-8 text-center">Latest Opportunities</h2>
+            <h2 className="text-3xl font-bold text-slate-700 mb-8 text-center">Últimas oportunidades</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               {/* Course Card */}
@@ -112,7 +112,7 @@ export default function Home() {
                     className="w-full h-48 object-cover" 
                   />
                   <div className="absolute top-4 left-4">
-                    <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">Course</span>
+                    <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">Curso</span>
                   </div>
                   <div className="absolute top-4 right-4">
                     <Button size="icon" variant="secondary" className="bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full">
@@ -127,24 +127,24 @@ export default function Home() {
                       <Code className="text-white" size={16} />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-slate-700">Advanced Web Development</h3>
+                      <h3 className="font-semibold text-slate-700">Desenvolvimento Web avançado</h3>
                       <p className="text-sm text-gray-500">Prof. Maria Rodriguez</p>
                     </div>
                   </div>
                   
                   <p className="text-gray-600 mb-4 leading-relaxed">
-                    Master modern web technologies including React, Node.js, and cloud deployment. Build real-world applications with industry best practices.
+                    Domine as tecnologias modernas da Web, incluindo React, Node.js e implementação na nuvem. Crie aplicativos do mundo real com as melhores práticas do mercado
                   </p>
                   
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-4 text-sm text-gray-500">
                       <span className="flex items-center">
                         <Clock className="mr-1" size={14} />
-                        12 weeks
+                        12 semanas
                       </span>
                       <span className="flex items-center">
                         <Users className="mr-1" size={14} />
-                        234 students
+                        234 estudantes
                       </span>
                     </div>
                     <div className="flex items-center">
@@ -158,7 +158,7 @@ export default function Home() {
                   </div>
                   
                   <Button className="w-full gradient-purple-blue text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-200">
-                    Enroll Now
+                    Inscreva-se agora
                   </Button>
                 </CardContent>
               </Card>
@@ -172,7 +172,7 @@ export default function Home() {
                     className="w-full h-48 object-cover" 
                   />
                   <div className="absolute top-4 left-4">
-                    <span className="text-white px-3 py-1 rounded-full text-sm font-medium" style={{ backgroundColor: "hsl(213, 93%, 68%)" }}>Event</span>
+                    <span className="text-white px-3 py-1 rounded-full text-sm font-medium" style={{ backgroundColor: "hsl(213, 93%, 68%)" }}>Evento</span>
                   </div>
                   <div className="absolute top-4 right-4">
                     <Button size="icon" variant="secondary" className="bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full">
@@ -187,34 +187,34 @@ export default function Home() {
                       <Network className="text-white" size={16} />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-slate-700">Tech Career Fair 2024</h3>
-                      <p className="text-sm text-gray-500">UniConecta Events</p>
+                      <h3 className="font-semibold text-slate-700">Feira de carreiras técnicas 2025</h3>
+                      <p className="text-sm text-gray-500">OreHub Eventos</p>
                     </div>
                   </div>
                   
                   <p className="text-gray-600 mb-4 leading-relaxed">
-                    Connect with top tech companies, attend exclusive workshops, and discover your dream career. Over 50 companies will be present.
+                    Conecte-se com as principais empresas de tecnologia, participe de workshops exclusivos e descubra a carreira dos seus sonhos. Mais de 22 empresas estarão presentes.
                   </p>
                   
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-4 text-sm text-gray-500">
                       <span className="flex items-center">
                         <Calendar className="mr-1" size={14} />
-                        Dec 15, 2024
+                        Dezembro 15, 2025
                       </span>
                       <span className="flex items-center">
                         <Users className="mr-1" size={14} />
-                        1.2k attending
+                        1.2k Participantes
                       </span>
                     </div>
                     <div className="flex items-center text-sm">
                       <MapPin style={{ color: "hsl(213, 93%, 68%)" }} className="mr-1" size={14} />
-                      <span className="text-gray-600">Virtual</span>
+                      <span className="text-gray-600">Online</span>
                     </div>
                   </div>
                   
                   <Button className="w-full gradient-blue-purple text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-200">
-                    Join Event
+                    Participar do evento
                   </Button>
                 </CardContent>
               </Card>
@@ -225,16 +225,16 @@ export default function Home() {
         {/* CTA Section */}
         <section className="gradient-purple-blue rounded-3xl p-8 md:p-12 text-center text-white mb-12">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Future?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Pronto para transformar seu futuro?</h2>
             <p className="text-xl mb-8 opacity-90">
-              Join our community of learners, mentors, and industry professionals. Your journey to success starts here.
+              Junte-se à nossa comunidade de alunos, mentores e profissionais do setor. Sua jornada para o sucesso começa aqui.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button className="bg-white text-primary px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-                Create Free Account
+                Criar conta
               </Button>
-              <Button variant="outline" className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary transition-all duration-300">
-                Learn More
+              <Button variant="outline" className="bg-white text-primary px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                Saiba mais
               </Button>
             </div>
           </div>
@@ -246,24 +246,24 @@ export default function Home() {
             <div className="w-16 h-16 gradient-purple-blue rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Users className="text-white text-2xl" size={32} />
             </div>
-            <h3 className="text-xl font-semibold text-slate-700 mb-2">Study Groups</h3>
-            <p className="text-gray-600">Connect with peers, form study groups, and learn together in collaborative environments.</p>
+            <h3 className="text-xl font-semibold text-slate-700 mb-2">Grupos de estudo</h3>
+            <p className="text-gray-600">Conecte-se com colegas, forme grupos de estudo e aprenda junto em ambientes colaborativos.</p>
           </div>
           
           <div className="text-center p-6">
             <div className="w-16 h-16 gradient-blue-purple rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Presentation className="text-white text-2xl" size={32} />
             </div>
-            <h3 className="text-xl font-semibold text-slate-700 mb-2">Expert Mentoring</h3>
-            <p className="text-gray-600">Get guidance from industry professionals and experienced educators in your field.</p>
+            <h3 className="text-xl font-semibold text-slate-700 mb-2"></h3>
+            <p className="text-gray-600">Obtenha orientação de profissionais do setor e educadores experientes em sua área.</p>
           </div>
           
           <div className="text-center p-6">
             <div className="w-16 h-16 gradient-purple-blue rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Calendar className="text-white text-2xl" size={32} />
             </div>
-            <h3 className="text-xl font-semibold text-slate-700 mb-2">Live Events</h3>
-            <p className="text-gray-600">Attend workshops, seminars, and networking events to expand your knowledge and connections.</p>
+            <h3 className="text-xl font-semibold text-slate-700 mb-2">Eventos ao vivo</h3>
+            <p className="text-gray-600">Participe de workshops, seminários e eventos de networking para ampliar seus conhecimentos e conexões.</p>
           </div>
         </section>
       </main>
@@ -277,10 +277,10 @@ export default function Home() {
                 <div className="w-10 h-10 gradient-purple-blue rounded-lg flex items-center justify-center">
                   <GraduationCap className="text-white text-lg" size={20} />
                 </div>
-                <span className="text-2xl font-bold">UniConecta</span>
+                <span className="text-2xl font-bold">OreHub</span>
               </div>
               <p className="text-gray-300 mb-4 max-w-md">
-                Connecting education, community and opportunity. Building the future through collaborative learning and meaningful connections.
+                Conectando educação, comunidade e oportunidade. Construindo o futuro por meio de aprendizado colaborativo.
               </p>
               <div className="flex space-x-4">
                 <Button variant="ghost" size="icon" className="text-gray-300 hover:text-blue-400">
@@ -302,28 +302,28 @@ export default function Home() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Platform</h4>
+              <h4 className="font-semibold mb-4">Plataforma</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Groups</Button></li>
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Mentoring</Button></li>
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Events</Button></li>
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Courses</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Grupos</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Mentoria</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Eventos</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Cursos</Button></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Support</h4>
+              <h4 className="font-semibold mb-4">Suporte</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Help Center</Button></li>
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Contact Us</Button></li>
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Privacy Policy</Button></li>
-                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Terms of Service</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Central de Ajuda</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Contato</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Política de privacidade</Button></li>
+                <li><Button variant="link" className="p-0 h-auto text-gray-300 hover:text-blue-400">Termos de Serviço</Button></li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 UniConecta. All rights reserved.</p>
+            <p>&copy; 2025 OreHub. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
