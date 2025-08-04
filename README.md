@@ -2,8 +2,6 @@
 
 **OreHub** é uma plataforma de integração universitária que conecta estudantes, mentores e comunidades acadêmicas. Inspirada em redes sociais como Twitter e fóruns colaborativos, o projeto tem como objetivo centralizar oportunidades, eventos, mentorias e grupos de discussão em um só lugar.
 
-🔗 **Acesse a versão online**: [OreHub (via ngrok)](https://286ce0acbc6c.ngrok-free.app/)
-
 ---
 
 ## 🎯 Objetivo
